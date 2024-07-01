@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://example.com/car-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #BFD8AF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: #D4E7C5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #99BC85;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #666;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #7b7272ad;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #BFD8AF; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    width: 100%; 
+}
+
+button[type="submit"]:hover {
+    background-color: #D4E7C5;
+}
+
+.cancelbtn:hover {
+    background-color: #c33c29;
+}
+
+.psw {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.psw a {
+    color: white;
+}
+
+.psw a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveIt</title>
+    <link rel="stylesheet" href="css/login.css"> <!-- Menghubungkan file CSS -->
+</head>
+<body>
+  
+    <div class="container" style="background-color: #99BC85">
+      <form id="form" action="index.html"> <!-- Form login dengan aksi mengarah ke halaman-kedua.html -->
+        <h2>Login</h2>
+        <label for="username" style="color: whitesmoke;">Username</label> <!-- Label untuk input username . berguna untuk perubahan gaya cepat atau gaya khusus untuk satu elemen.-->
+        <input type="text" id="username" name="username" required ><br><br> <!-- Input field untuk username -->
+        <label for="password" style="color: whitesmoke;">Password</label><!-- Label untuk input password -->
+        <input type="password" id="password" name="password" required><br>
+        <span class="psw"><a href="#">Lupa password?</a></span> <!-- Link untuk mengingatkan kata sandi, tpi aku belum masukin;)-->
+        <br>
+        <button type="submit" onClick="login()">Login</button> <!-- Tombol untuk submit form dan memanggil fungsi login() -->
+    </form>
+    <br>
+    <span class="signup">Anda belum memiliki akun? <a href="daftar.html" style="color: white;">Daftar</a></span> <!-- Link buat sign up atau resgistrasi -->
+    </div>
+<script src="js/custom.js"></script> <!-- Menghubungkan file JavaScript -->
+<script src="js/login.js"></script>
+</body>
+</html>

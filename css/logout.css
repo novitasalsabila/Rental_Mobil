@@ -1,0 +1,14 @@
+/* Warna default ikon */
+.custom-navbar-cta .dropdown-menu .dropdown-item img {
+    filter: grayscale(100%); /* Mengubah ikon menjadi hitam putih */
+}
+
+/* Efek hover untuk ikon */
+.custom-navbar-cta .dropdown-menu .dropdown-item:hover img {
+    filter: grayscale(0%); /* Mengembalikan warna asli ikon saat disentuh */
+}
+
+/* Efek scroll untuk ikon */
+.custom-navbar-cta.scrolled .dropdown-menu .dropdown-item img {
+    filter: grayscale(0%); /* Mengembalikan warna asli ikon saat di-scroll ke bawah */
+}
